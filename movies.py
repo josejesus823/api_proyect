@@ -88,8 +88,6 @@ class coleccion_peliculas:
         movie_genre = movie_data.get('Genre').split(",")
         movie_to_search = movie(movie_tittle, movie_director, movie_year, movie_genre[0])
         print((movie_tittle, movie_director, movie_year, movie_genre[0]))
-        #print("Esto es un test", movie_data.get('Title'), movie_data.get('Director'), movie_data.get('Year'), movie_data.get('Genre'))
-        #print("Evaluemos lo que pasa aqui", movie_data.get('Genre'))
                 
 movie1 = movie("The Shawshank Redemption", "Frank Darabont", 1994, "Accion")
 movie2 = movie("The Godfather", "Francis Ford Coppola", 1972, "Accion")
